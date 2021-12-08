@@ -36,4 +36,15 @@ int main()
     ArrayList<std::string> strAr2(strAr);
     std::cout << strAr2.toString() << std::endl;
     std::cout << strAr.equals(strAr2) << std::endl;
+    std::cout << strAr2.remove("hello") << std::endl;
+    std::cout << strAr2.toString() << std::endl;
+    std::cout << strAr2.remove(3) << std::endl;
+    std::cout << strAr2.toString() << std::endl;
+
+    // ／(•ㅅ•)＼ Try with integers
+    ArrayList<int64_t> intAr;
+    intAr.add(33);
+    intAr.add(12);
+    intAr.add(47);
+    std::cout << intAr.toString() << std::endl;
 }
